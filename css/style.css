@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#marq{
+    font-size: 60px;
+    background-color: #131313;
+    color: #11adebc0;
+    letter-spacing: 5px;
+}
+.par-btn{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /* background-color: #e8e8e8; */
+    margin: 50px auto;
+}
+#btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    background-color: #1c94da;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    border: 2px solid #1c94da;
+    background-color: #fff;
+    color: #1c94da;
+}
+#pri{
+    min-width:100%;
+    min-height: 200px;
+    margin: auto;
+    background-color: #e8e8e8;
+
+}
+#pri h2{
+    font-size: 25px;
+    color: #1c94da;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
